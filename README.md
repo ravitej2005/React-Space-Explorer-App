@@ -100,7 +100,6 @@ React-Space-Explorer-App/
 ```
 
 
-```markdown
 # Project Files
 
 - **index.html**: The main HTML file.
