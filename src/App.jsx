@@ -10,18 +10,21 @@ import Home from './Components/Home/Home';
 function App() {
   const router = createBrowserRouter(
     createRoutesFromElements(
-      <Route path='' element={<Layout/>}>
-        <Route path='' element={<Home/>} />
-        <Route path='/planets' element={<Planets/>} />
-        <Route path='/planets/:id' element={<CardInfo />} />
-        <Route path='/moons' element={<Moons/>} />
-        <Route path='/moons/:id' element={<CardInfo />} />
-        <Route path='/otherBodies' element={<OtherBodies/>} />
-        <Route path='/otherBodies/:id' element={<CardInfo />} />
+      <Route path="/" element={<Layout />}>
+        <Route index element={<Home />} />
+        <Route path="/planets" element={<Planets />} />
+        <Route path="/planets/:id" element={<CardInfo />} />
+        <Route path="/moons" element={<Moons />} />
+        <Route path="/moons/:id" element={<CardInfo />} />
+        <Route path="/otherBodies" element={<OtherBodies />} />
+        <Route path="/otherBodies/:id" element={<CardInfo />} />
       </Route>
-    )
+    ),
+    {
+      basename: '/space-explorer-web-app', // Set the basename to match the deployment path
+    }
   );
-
+  
   return (
     <RouterProvider router={router}></RouterProvider>
   );

@@ -7,7 +7,7 @@ function Header() {
   return (
     <div className='flex justify-start items-center flex-wrap text-white shadow-md mb-4'>
       <div className='flex justify-start items-center gap-4 grow'>
-        <img src="../src/assets/Logo.png" alt="logo" className='h-18 filter invert brightness-125' />
+        <img src="https://i.postimg.cc/4xbwtFM4/Logo.png" alt="logo" className='h-18 filter invert brightness-125' />
         <h2 className='font-extrabold text-2xl px-4 text-center'>Let&apos;s Explore The Space..!!</h2>
       </div>
       <nav className='flex justify-center items-center mr-20 text-md font-bold ml-3'>
@@ -16,7 +16,7 @@ function Header() {
             <NavLink
               to='/planets'
               className={({ isActive }) =>
-                `${isActive || location.pathname === '/' ? "text-amber-500" : "text-white"}`
+                `${isActive ? "text-amber-500" : "text-white"}`
               }
             >
               Planets
