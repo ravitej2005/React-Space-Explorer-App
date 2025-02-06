@@ -26,7 +26,6 @@ Got it! Here's the updated version with the appropriate Markdown headers and the
 npm create vite@latest
 ```
 
-```markdown
 # Installing Dependencies
 
 To install all required dependencies, run:
@@ -99,7 +98,6 @@ React-Space-Explorer-App/
 │   ├── main.jsx
 │   └── ...
 └── tailwind.config.js
-```
 ```
 
 
