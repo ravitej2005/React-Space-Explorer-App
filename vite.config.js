@@ -7,5 +7,5 @@ export default defineConfig({
   plugins: [
     tailwindcss(),
     react()],
-  base: '/space-explorer-web-app'
+  base: '/React-Space-Explorer-App'
 })
