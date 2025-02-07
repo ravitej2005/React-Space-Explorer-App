@@ -2,6 +2,11 @@
 
 Welcome to the **React Space Explorer App**! This application allows users to explore various celestial objects and space-related information interactively.
 
+## Live Preview
+
+[Click here to view the live app](https://ravitej2005.github.io/React-Space-Explorer-App)
+
+
 ## Features
 
 - Browse through a collection of planets and celestial bodies.
